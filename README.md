@@ -21,4 +21,4 @@ The AUC score using CountVectorizer, adding three features and Logistic Regressi
    
    => The 10 smallest coefficients from this model :[' i' 'ca' '..' '. ' 'pe' ' go' ' m' 'if' 'us' 'go']
    
-The first configuration shows that TfidfVectorizer is less robust than the CountVectorizer. However, by  asjusting some parameters and adding more features models even with TfidfVectorizer become more robust
+The second configuration show that TfidfVectorizer is less robust than the CountVectorizer. However, by  asjusting some parameters and adding more features models even with TfidfVectorizer become more robust
