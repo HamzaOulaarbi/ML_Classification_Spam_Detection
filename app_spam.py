@@ -6,6 +6,8 @@ from sklearn.linear_model import LogisticRegression
 
 
 st.title("""Spam Prediction APP""")
+st.write('Cette application vous permettra de savoir si le message introduit est un spam ou pas')
+st.write('Entrer votre message ensuite cliquer sur Submit')
 st.sidebar.header('Inputs')
 input=st.sidebar.text_area(label='Please enter your message here :',value='Hi Hamza,\n Click here or call us by phone on: 0800080121 if you want to earn  millions $$$ of dollars\nRegards', height=200)
 input=pd.Series(input)
