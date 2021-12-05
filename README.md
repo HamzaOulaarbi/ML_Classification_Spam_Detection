@@ -2,6 +2,8 @@
 ML_Classification_Spam_Detection
 ## Task Details 
 Explore text message data and create models to predict if a message is spam or not.
+Deploy the model with Streamlit : https://myspam-detection.herokuapp.com/
+Deploy the application in Docker 
 
 ## Conclusions
 
